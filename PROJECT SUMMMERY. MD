@@ -1,0 +1,31 @@
+# 🛒 Marketing & E-Commerce Customer Behaviour Analysis
+
+## 📌 Project Overview
+This project explores customer browsing and purchasing patterns on an e-commerce platform across different digital marketing channels. By analyzing session duration, pages viewed, cart additions, and final purchases, the study identifies key drivers of customer conversion and cart abandonment.
+
+## 🛠️ Tools & Technologies
+* **Python** (Core Programming)
+* **Pandas** (Data Cleaning, Grouping & KPI Calculation)
+* **Matplotlib & Seaborn** (Data Visualization)
+
+## 📊 Key Metrics Analyzed
+* **Conversion Rate (%):** Percentage of visitors who completed a purchase.
+* **Cart Abandonment Behaviour:** Identifying users who added items to their cart (`Cart_Added = Yes`) but left without buying (`Purchased = No`).
+* **Session Engagement:** Average time spent (`Session_Duration_Min`) and pages viewed across devices (`Mobile` vs. `Desktop`).
+
+## 💡 Key Business Insights
+1. **Highest Converting Channels:** **Google Search** and **Email Campaigns** drove the highest conversion rates and average order values, particularly among the `25-44` age group.
+2. **Mobile Cart Abandonment:** Users coming from **Instagram Ads** on mobile devices frequently added items to their carts but showed high drop-off rates before checkout—indicating a need for a smoother mobile checkout experience or targeted retargeting ads.
+3. **Desktop vs. Mobile Spending:** Desktop users spent longer per session and placed higher-value orders compared to mobile browsers.
+
+## 📂 Repository Structure
+* `ecommerce_behaviour.csv` — Dataset containing user demographics, traffic sources, session activity, and order values.
+* `behaviour_analysis.py` — Python script for data aggregation, conversion calculation, and visualization.
+* `README.md` — Project documentation and business recommendations.
+
+## 🚀 How to Run Locally
+```bash
+git clone https://github.com
+pip install pandas matplotlib seaborn
+python behaviour_analysis.py
+```
